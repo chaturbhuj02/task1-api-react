@@ -1,6 +1,11 @@
-const LoadTable = ()=>{
+const LoadTable = (props)=>{
     return(
-        <div>Load data into table</div>
+        <tr>
+            <td>{props.name}</td>
+            <td>{props.country}</td>
+            <td>{props.cCode}</td>
+            <td>{props.web}</td>
+          </tr>
     );
 }
 
