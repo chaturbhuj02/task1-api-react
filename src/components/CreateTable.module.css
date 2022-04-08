@@ -16,8 +16,8 @@
 
   .ctn{
       display:flex;
-      justify-content: space-around;
-      margin-bottom: 2rem;
+      justify-content: space-evenly;
+      margin: 2rem;
   }
 
   table{
