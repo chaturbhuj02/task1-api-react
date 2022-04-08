@@ -1,0 +1,40 @@
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #0a122a;
+    color: white;
+    border: 1px solid #0a122a;
+    margin: 0 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #0a122a9d;
+    border-color: #0a122aa2;
+  }
+
+  .ctn{
+      display:flex;
+      justify-content: space-around;
+      margin-bottom: 2rem;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+td, th{
+    border:1px solid #dddddd;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+th{
+    color:#ffffff;
+    background-color: #0a122a;
+}
